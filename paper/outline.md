@@ -6,21 +6,39 @@ The data stored in Big Data is very huge and often stored in a distributed manne
 # Technical issues and challenges facing big data security
 Big data security threats permeate all aspects of the big data industry chain, including data production/collection, processing and sharing, and the causes of risk are complex and intertwined; there are both external attacks and internal leaks; there are both technical vulnerabilities and management flaws; there are both new risks triggered by new technologies and new models, and there are also traditional security issues that continue to trigger. This report will focus on the security threats faced by big data itself, analyze from three aspects of big data platform security, data security and personal information security, and identify the security needs of big data.
 
+
+
+
+
+
 (A) platform security issues and challenges
 1, big data platform in Hadoop open source model lack of overall security planning, their own security mechanisms have limitations
+
 2, big data platform services for many users, a variety of scenarios, the performance of traditional security mechanisms can hardly meet the demand
+
 3、The large-scale distributed storage and computing mode of the big data platform leads to exponential growth in the difficulty of security configuration
+
 4, for the big data platform network attack means present new features, traditional security monitoring technology exposure is insufficient
 
 (II) data security issues and challenges
+
 1, the number of data leakage incidents continues to grow, causing increasingly serious harm Big data has become a significant target of network attacks because of its huge value and centralized storage management model
+
 2, data collection link has become a new risk point affecting decision analysis
+
 3、The confidentiality protection problem in the data processing process is gradually emerging
+
 4、The complexity of the data flow path makes it extremely difficult to trace the source
 
 (C) personal privacy security challenges
 1、Traditional privacy protection technology faces the possibility of failure due to the superb analytical capability of big data
+
 2, traditional privacy protection technology is difficult to adapt to the non-relational database of big data
+
+
+
+
+
 
 
 
