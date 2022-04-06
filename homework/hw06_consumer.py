@@ -56,7 +56,7 @@ FROM iss
 	time.sleep(5)
 
  #30mins
-streamer.awaitTermination(timeout=30*60,TimeUnit.SECONDS)
+streamer.awaitTermination(timeout=30*60)
 
 print('streaming finish')
 
