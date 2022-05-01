@@ -1,7 +1,34 @@
 # **The big data security problems we encounter and how security platforms work**
 
 ## **I. Current situation**
-Nowadays, network threats have evolved from traditional viruses to malicious attacks like worms and denial of service, etc. Today's network threats are becoming more and more sophisticated and are no longer limited to traditional viruses, Trojans, botnets, spyware, rogue software, network fraud, spam, worms, phishing, etc. are a serious threat to network security. Network attacks are often a blend of viruses, worms, Trojan horses, spying, scanning technology in one hybrid attack. Hackers use worms to create botnets and integrate more attack sources to focus on the target to launch a violent denial of service attack. Such a single anti-virus software or firewall and other security devices are difficult to block the hackers' attacks, so a more advanced linkage system is needed to prevent a variety of attacks, which gives birth to OSSIM, a security information management platform.
+
+## What are the security issues facing Big Data
+The data stored in Big Data is very huge and often stored in a distributed manner, and it is because of this storage method, the storage path view is relatively clear, and the data volume is too large, resulting in data protection, relatively simple, hackers more easily use the relevant vulnerabilities to implement illegal operations, causing security problems. Although big data security still inherits the three characteristics of traditional data security confidentiality, integrity and availability, but also has its own special characteristics.
+
+
+### (A) platform security issues and challenges
+1, big data platform in Hadoop open source model lack of overall security planning, their own security mechanisms have limitations
+
+2, big data platform services for many users, a variety of scenarios, the performance of traditional security mechanisms can hardly meet the demand
+
+3,The large-scale distributed storage and computing mode of the big data platform leads to exponential growth in the difficulty of security configuration
+
+4, for the big data platform network attack means present new features, traditional security monitoring technology exposure is insufficient
+
+### (B) data security issues and challenges
+
+1, the number of data leakage incidents continues to grow, causing increasingly serious harm Big data has become a significant target of network attacks because of its huge value and centralized storage management model
+
+2, data collection link has become a new risk point affecting decision analysis
+
+3,The confidentiality protection problem in the data processing process is gradually emerging
+
+4,The complexity of the data flow path makes it extremely difficult to trace the source
+
+### (C) personal privacy security challenges
+1,Traditional privacy protection technology faces the possibility of failure due to the superb analytical capability of big data
+
+2, traditional privacy protection technology is difficult to adapt to the non-relational database of big data
 
 ## **II. Introduction of OSSIM**
 OSSIM provides a base platform that enables security monitoring functions by integrating open-source products. It aims to provide a centralized, organized, framework-based system capable of better monitoring and display. OSSIM is clearly positioned as an integrated solution, and its goal is not to develop a new feature, but to take advantage of the rich and powerful variety of programs (including Mrtg, Snort, Nmap, Openvas, and Ntop and other open-source system security software). Integrating them in an open architecture system environment that preserves their original functions and roles, OSSIM supports up to 2395 plug-ins so far (http://www.alienvault.com/community/plugins). The core work of the OSSIM project is responsible for integrating and correlating the information provided by the various products, as well as integrating related functions. Due to the advantages of open-source projects, these tools are already tried and tested, and have been tested in all aspects and are reliable.
