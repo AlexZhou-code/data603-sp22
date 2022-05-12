@@ -1,6 +1,6 @@
 ## File explain ##
 DATA603_Alex_final proj.ipynb: main program, all needed toolkits is included, no need extra work to run, ML training processing take about 20mins<br>
-DATA603 final project Presentation_Alex Zhou .pdf: PPT file <br>
+presentation.pdf: PPT file <br>
 host_train.csv.zip:origin file size is too big, so it converts into a zip file.<br>
 README.MD: file you are reading.<br>
 
