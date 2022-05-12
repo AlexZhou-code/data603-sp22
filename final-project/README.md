@@ -15,7 +15,7 @@ So I looked for another data on hospital treatment of covid to predict the numbe
 
 
 
-## Final results and explain##
+## Final results and explain ##
 After a series of adjustments to the parameters and training, I improved the accuracy from 20% to 40%. I also compared my results to those using other algorithms and there was little difference in the final results. The final predictions were visualized with the data and did not identify a large number of predictions with obvious errors, as most of the predictions basically fell to the left or right of the truth. The main prediction errors appear inside the 2 columns of 41-70 years old. Since the characteristics of these data are not very prominent, the decision tree gives more conservative predictions at depths of 5 and 10. If I had more time for me to solve this problem, I think I would use pruning to improve the accuracy.
 
 **Parameters of DecisionTreeClassifier**
